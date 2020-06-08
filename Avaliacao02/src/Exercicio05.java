@@ -23,7 +23,7 @@ public static void main(final String[] args) {
 static int triangulo(int nLinhas) {
     if (contador < nLinhas) {
         ultimaLinha = contador + 1;
-        nBlocos = nBlocos + ultimaLinha;
+        nBlocos += ultimaLinha;
         contador += 1;
         triangulo(nLinhas);
         }
