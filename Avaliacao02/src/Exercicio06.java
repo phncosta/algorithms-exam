@@ -37,17 +37,17 @@ public class Exercicio06 {
 
         System.out.print("B = ");
         int b = Math.abs(in.nextInt());
-        System.out.println("A x B = " + multiplicarRussamente(a, b));
+        System.out.println("A x B = " + multiplicacaoRussa(a, b));
 
         in.close();
     }
 
-    public static int multiplicarRussamente(int a, int b) {
+    public static int multiplicacaoRussa(int a, int b) {
         if (a > 1 && b > 0) {
             if (a % 2 == 1) {
-                return multiplicarRussamente(a/2, b*2) + b;
+                return multiplicacaoRussa(a / 2, b * 2) + b;
             } else {
-                return multiplicarRussamente(a/2, b*2);
+                return multiplicacaoRussa(a / 2, b * 2);
             }
         } else if (a == 0) {
             return a;
