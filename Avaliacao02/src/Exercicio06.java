@@ -2,7 +2,13 @@ import java.util.Scanner;
 
 public class Exercicio06 {
     
-    /**
+	/*
+	 * 			INTEGRANTES
+	 * Paulo Henrique Nogueira Costa | 
+	 * Pedro Rafael Santos Gomes     |
+	 * Sillas Cavalcante Lopes Pinto |
+	 * 
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      * 6. (2,0) A multiplicação Russa consiste em:
      * 
      * a) Escrever os números A e B, que se deseja multiplicar na parte superior das colunas;
@@ -42,7 +48,7 @@ public class Exercicio06 {
         in.close();
     }
 
-    public static int multiplicacaoRussa(int a, int b) {
+    static int multiplicacaoRussa(int a, int b) {
         if (a > 1 && b > 0) {
             if (a % 2 == 1) {
                 return multiplicacaoRussa(a / 2, b * 2) + b;

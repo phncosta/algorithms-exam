@@ -3,6 +3,12 @@ import java.util.Scanner;
 public class Exercicio05 {
 
 	/*
+	 * 			INTEGRANTES
+	 * Paulo Henrique Nogueira Costa | 
+	 * Pedro Rafael Santos Gomes     |
+	 * Sillas Cavalcante Lopes Pinto |
+	 * 
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 5. (2,0) Temos triângulos feito de blocos. A linha superior tem 1 bloco, a
 	 * próxima linha abaixo tem 2 blocos, a próxima linha tem 3 blocos e assim por
 	 * diante. Criar uma função recursiva que calcule (sem loops ou multiplicação) o

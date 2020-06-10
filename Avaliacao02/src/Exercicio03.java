@@ -2,7 +2,13 @@ import java.util.Scanner;
 
 public class Exercicio03 {
 
-	/**
+	/*
+	 * 			INTEGRANTES
+	 * Paulo Henrique Nogueira Costa | 
+	 * Pedro Rafael Santos Gomes     |
+	 * Sillas Cavalcante Lopes Pinto |
+	 * 
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 3. (2,0pts) - Temos vários coelhos e cada coelho tem duas orelhas grandes e
 	 * flexíveis. Queremos calcular o número total de orelhas em todos os coelhos de
 	 * forma recursiva (sem loops ou multiplicação). Criar uma função recursiva que
@@ -24,7 +30,7 @@ public class Exercicio03 {
 	static int orelhasCoelho(int n) {
 		if (n > 0) {
 			n--;
-			return 2 + orelhasCoelho(n); // Incrementa em dois na memória pra cada recursão de N
+			return 2 + orelhasCoelho(n); // Incrementa em dois na memória para cada recursão de N
 		} else {
 			return 0;
 		}

@@ -2,7 +2,13 @@ import java.util.Scanner;
 
 public class Exercicio04 {
 
-	/**
+	/*
+	 * 			INTEGRANTES
+	 * Paulo Henrique Nogueira Costa | 
+	 * Pedro Rafael Santos Gomes     |
+	 * Sillas Cavalcante Lopes Pinto |
+	 * 
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 4. (2,0) Dada uma string, criar uma função recursiva (sem laços) que compute
 	 * o número de caracteres ’x’ na string.
 	 * 
