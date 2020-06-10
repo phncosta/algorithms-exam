@@ -24,7 +24,7 @@ public class Exercicio03 {
 	static int orelhasCoelho(int n) {
 		if (n > 0) {
 			n--;
-			return 2 + orelhasCoelho(n); // Incrementa em dois dois na memória pra cada recursão de N
+			return 2 + orelhasCoelho(n); // Incrementa em dois na memória pra cada recursão de N
 		} else {
 			return 0;
 		}
