@@ -39,10 +39,11 @@ public class Exercicio06 {
         Scanner in = new Scanner(System.in);
         
         System.out.print("A = ");
-        int a = Math.abs(in.nextInt());
+        int a = in.nextInt();
 
         System.out.print("B = ");
-        int b = Math.abs(in.nextInt());
+        int b = in.nextInt();
+        
         System.out.println("A x B = " + multiplicacaoRussa(a, b));
 
         in.close();
