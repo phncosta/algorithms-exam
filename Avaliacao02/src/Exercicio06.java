@@ -59,7 +59,7 @@ public class Exercicio06 {
         } else if (a == 0) {
             return a;
         } else {
-            return b;
+            return a * b;
         }
     }
 }
