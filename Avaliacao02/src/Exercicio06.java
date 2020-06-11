@@ -50,16 +50,15 @@ public class Exercicio06 {
     }
 
     static int multiplicacaoRussa(int a, int b) {
-        if (a > 1 && b > 0) {
-            if (a % 2 == 1) {
-                return multiplicacaoRussa(a / 2, b * 2) + b;
-            } else {
-                return multiplicacaoRussa(a / 2, b * 2);
-            }
-        } else if (a == 0) {
+    	if (a == 0) {
             return a;
-        } else {
-            return a * b;
-        }
+        } 
+        if (a % 2 == 1) {
+        	System.out.printf("%s | %s\n", a, b);   
+                return multiplicacaoRussa(a / 2, b * 2) + b;
+         } 
+        System.out.printf("%s | %s\n", a, b);        
+        
+        return multiplicacaoRussa(a / 2, b * 2);
     }
 }
