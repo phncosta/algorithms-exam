@@ -53,7 +53,7 @@ public class Exercicio06 {
     	if (a == 0) {
             return a;
         } 
-        if (a % 2 == 1) {
+        if (a % 2 != 0) {
         	System.out.printf("%s | %s\n", a, b);   
                 return multiplicacaoRussa(a / 2, b * 2) + b;
          } 
